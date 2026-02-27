@@ -1,0 +1,14 @@
+
+Truthy Values: Values that evaluate to true in a Boolean context (non-zero numbers, non-empty strings, objects, arrays, etc.).
+
+Falsey Values: Values that evaluate to false in a Boolean context (false, 0, "", null, undefined, NaN).
+
+Falsey-false,undefined,null,NaN
+Truthy-True,1,2,3,etc,[],{},function:{}
+
+If All are falsey OR returns last value
+If All are Truthy then  AND returns last value
+AND returns the first falsey value it encounters 
+
+let isLogged=true;
+isLogged && console.log('Hello');
